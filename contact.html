@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link href="res/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <script
+    src="https://kit.fontawesome.com/c46e1c5a85.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <!-- DEBUT HEADER -->
+    <header id="top">
+        <!-- Top of the Header -->
+        <div class="header-top" >
+          <div class="socialmedias">
+            <a href="https://www.linkedin.com/in/fidelmoussahaziri" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+  
+          </div>
+          <div class="email">
+            <p><i class="fa-solid fa-envelope"></i></p>
+            <p class="email-address"><a class="textWhite textSpacing1 textSmall" href="mailto:moussahaziri.fidel@gmail.com">moussahaziri.fidel@gmail.com</a></p>
+          </div>
+        </div>
+        <!-- Bottom of the header -->
+          <!-- Menu -->
+          <nav>
+          
+              <ul class="menu">
+                <li> <a href="index.html#home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="index.html#apropos">A propos</a></li>
+                <li><a href="index.html#competence">Technologies</a></li>
+                <li><a href="index.html#projets">Projets</a></li>
+                <li><a href="index.html#activite">Autres</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+              </ul>
+          </nav>
+        <!-- </div> -->
+      </header>
+    <section id="contact">
+        <h1>Conctactez moi</h1>
+        <div class="line"></div>
+        <form action="message_sent.html" method="post" id="form-container">
+            <!-- CIVILITE -->
+            <div class="civilite">
+                <p>Civilité</p>
+                <div class="radio-container">
+                    <div class="radio">
+                        
+                        <input type="radio" name="civilite" id="madame">
+                        <label for="madame">Mme</label>
+                    </div>
+                    <div class="radio">
+                        
+                        <input type="radio" name="civilite" id="monsieur">
+                        <label for="monsieur">Mr</label>
+                    </div>
+                </div>
+            </div>
+            <!-- NOM -->
+            <div class="nom">
+                <label for="nom" >Nom</label>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <!-- PRENOM -->
+            <div class="prenom text">
+                <label for="prenom" >Prénom</label>
+                <input type="text" id="prenom" name="prenom">
+            </div>
+            <!-- EMAIL -->
+            <div class="user-email">
+                <label for="email" >E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <!-- TELEPHONE -->
+            <div class="telephone">
+                <label for="telephone">Numéro de téléphone</label>
+                <input type="tel" id="telephone" name="telephone">
+            </div>
+            
+            <!-- SUJET -->
+            <div class="sujet-form">
+                <label for="sujet">Sujet de contact</label>
+                <select name="sujet" id="sujet" >
+                    <option value="refonte">Refonte de votre site Internet</option>
+                    <option value="vitrine" selected>Création de site vitrine</option>
+                    <option value="commerce" selected>Création de site e-commerce</option>
+
+                </select>
+            </div>
+                <!-- MESSAGE -->
+            </div>
+            <div class="message text">
+                <label for="message">Votre message :</label>
+                <textarea id="message" name="user_message"></textarea>
+            </div>
+            <!-- SUBMIT BUTTON -->
+            <div>
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- FIN DU FORMULAIRE -->
+
+  <!-- DEBUT FOOTER -->
+          <!-- DEBUT DU FOOTER -->
+      <footer>
+        <div class="legal">
+          <a href="mentions.html">Mentions légales</a>
+        </div>
+        <div class="footer-links">
+        <a href="https://www.linkedin.com/in/fidelmoussahaziri" target="_blank"><i class="fa-brands fa-linkedin-in fa-2xl"></i></a>
+        <a href="https://github.com/FidelMH" target="_blank"><i class="fa-brands fa-github fa-2xl" ></i></a>
+        </div>
+        <div class="copyright">
+          <p>Created by me © 2022</p>
+        </div>
+      </footer>
+      <!-- FIN DU FOOTER -->
+</body>
+</html>
