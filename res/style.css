@@ -138,6 +138,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease;
   /* border: 1px solid black; */
 }
 .menu a:hover {
@@ -538,7 +539,7 @@ section {
 }
 
 .screencaps img {
-  box-shadow: 0px 3px 20px 0 white;
+  box-shadow: 0px 3px 20px 0 rgb(0, 0, 0, 0.5);
   border-radius: 8px;
   max-height: 325px;
 }
